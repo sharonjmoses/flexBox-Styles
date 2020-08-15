@@ -1,0 +1,62 @@
+.box{
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+    padding: 10px
+}
+
+.box1{background: blueviolet}
+.box2{background: yellow}
+.box3{background: rebeccapurple}
+.box4{background: red}
+.box5{background: green}
+.box6{background: pink}
+.box7{background: brown}
+.box8{background: yellowgreen}
+.box9{background: gray}
+.box10{background: paleturquoise}
+.box11{background: magenta}
+.box12{background: orange}
+.box13{background: orangered}
+
+
+/* FLex Wraps and Ordering */
+
+
+/* .container{
+    display: flex;
+    display: inline-flex;
+    border: 10px solid goldenrod;
+    min-height:100vh;
+    flex-direction: column-reverse;
+    flex-direction: row;
+    flex-wrap:wrap;
+    flex-wrap:wrap-reverse;
+}
+
+.box{
+    width: 22%; 
+    margin: 10px;
+    flex: 1;
+    order: 1;
+} */
+
+/* .box3{
+    order:2;
+}
+.box7{
+    order:2;
+} */
+
+
+/* Flex Justify COntent */
+.container{
+    display: flex;
+    border: 10px solid goldenrod;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
