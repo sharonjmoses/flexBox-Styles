@@ -1,6 +1,6 @@
 .box{
     color: white;
-    font-size: 10px;
+    font-size: 40px;
     text-align: center;
     text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
     padding: 10px
@@ -51,12 +51,110 @@
 
 
 /* Flex Justify COntent */
-.container{
+
+/* .container{
     display: flex;
     border: 10px solid goldenrod;
-    /* justify-content: space-between; */
+    justify-content: space-between; 
     justify-content: space-around;
     flex-direction: column;
     min-height: 100vh;
+} */
+
+
+/* Centring With Align items */
+/* .container{
+    display: flex;
+    border: 10px solid goldenrod;
+    height: 100vH;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: baseline;
+}
+ */
+
+ /* Align Content.  */
+ /* .container{
+    display: flex;
+    border: 10px solid goldenrod;
+    height: 100vH;
+    align-content: center;
+    align-content: flex-start;
+    align-content: flex-end;
+    align-content: stretch;
+    flex-wrap: wrap;
+} */
+/* .box{
+    width: 24%;
+} */
+
+/* Align Self Overriding each align items with self Boxes */
+/* .container{
+    display: flex;
+    border: 10px solid goldenrod;
+    height: 100vH;
+    align-items: flex-start;
 }
 
+.box2 {
+    padding-bottom: 50px;
+}
+.box3 {
+    padding-bottom: 70px;
+    align-self: stretch;
+} */
+
+/* FLex Box Sizing Property */
+
+/* .container{
+    display: flex;
+   
+}
+.box{
+    flex: 1;
+}
+.box3{
+    flex: 2;
+}
+.box5{
+    flex: 3
+} */
+
+
+
+/* Flex Grow Flex Basis Flex Shrink */
+
+/* .container{
+    display: flex;
+   
+}
+.box1{
+    flex-basis:  400px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.box2{
+    flex-basis:  400px;
+    flex-grow: 10;
+    flex-shrink: 10;
+} */
+
+/* Flex Basis Wrapping Work Together */
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 10px solid goldenrod;
+    height: 100vh;
+}
+.box{
+    flex-basis:  250px;
+    flex-grow: 1;
+ 
+}
+
+.box4{
+    flex-grow: 6;
+}
